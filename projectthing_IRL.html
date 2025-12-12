@@ -17,13 +17,22 @@ img {margin-bottom: -7px}
 </head>
 <body>
 
-<!-- Navbar (sticky bottom) -->
-<div class="w3-bottom w3-hide-small">
-  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
-    <a href="projectthing.html" style="width:25%" class="w3-bar-item w3-button">Home</a>
-    <a href="projectthing_yap.html" style="width:25%" class="w3-bar-item w3-button">Why I am a Geto Apologist</a>
-    <a href="projectthing_ewfrauds.html" style="width:25%" class="w3-bar-item w3-button">Frauds</a>
-    <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">Frauds</a>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="projectthing.html" class="w3-bar-item w3-button w3-wide"><i class="fa fa-home"></i> HOME</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="projectthing_infoig.html" class="w3-bar-item w3-button">Jujutsu Kaisen..?</a>
+      <a href="projectthing_yap.html" class="w3-bar-item w3-button">Why I'm a Geto Apologist</a>
+      <a href="projectthing_IRL.html" class="w3-bar-item w3-button">JJK IRL</a>
+      <a href="projectthing_ewfrauds.html" class="w3-bar-item w3-button">Frauds</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
   </div>
 </div>
 
