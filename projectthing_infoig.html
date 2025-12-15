@@ -6,6 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-light-blue.css">
 <style>
 body,h1,h2{font-family: "Raleway", sans-serif}
 body, html {height: 100%}
@@ -32,13 +34,13 @@ p {line-height: 2}
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <a href="projectthing.html" class="w3-bar-item w3-button w3-wide"><i class="fa fa-home"></i> HOME</a>
+    <a href="projectthing.html" class="w3-bar-item w3-button w3-wide"><i class="fa fa-home"></i></a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
       <a href="projectthing_infoig.html" class="w3-bar-item w3-button">Jujutsu Kaisen..?</a>
       <a href="projectthing_yap.html" class="w3-bar-item w3-button">Why I'm a Geto Apologist</a>
-      <a href="projectthing_IRL.html" class="w3-bar-item w3-button">JJK IRL</a>
       <a href="projectthing_ewfrauds.html" class="w3-bar-item w3-button">Frauds</a>
+      <a href="projectthing_IRL.html" class="w3-bar-item w3-button">JJK IRL</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
@@ -95,7 +97,7 @@ p {line-height: 2}
 <div class="w3-card w3-white">
   <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
   <div class="w3-container">
-  <h3>Season 3</h3>
+  <h3>Manga</h3>
   <h4>what</h4>
   <ul>
     <li>Blablabla</li>
@@ -107,6 +109,37 @@ p {line-height: 2}
   </div>
 </div>
 
+</div>
+
+<!-- RSVP section -->
+<div class="w3-container w3-padding-64 w3-theme w3-center w3-wide" id="rsvp">
+  <h1>FILL EACH OF THESE OUT!</h1>
+  <p class="w3-large">They're all different and fun, trust me.</p>
+  <p class="w3-xlarge">
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-theme-d5 w3-opacity w3-hover-opacity-off" style="padding:8px 60px">CLICK ME!!!</button>
+  </p>
+</div>
+
+<!-- RSVP modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+    <div class="w3-container w3-white w3-center">
+      <h1 class="w3-wide">JJK IS VERY PEAK.</h1>
+      <p>If you disagree, explain yourself.</p>
+      <form>
+        <input class="w3-input w3-border" type="text" placeholder="EXPLAIN. Or tell my why it's peak :3" name="name">
+      </form>
+      <p><i>BTW Gojo Dies.</i></p>
+      <div class="w3-row">
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">I already know...</button>
+        </div>
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">DID YOU JUST SPOIL ME!?</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <!-- Footer -->
