@@ -124,16 +124,23 @@ function myFunction() {
   }
 }
 
-// Open and close sidebar
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
 function w3_open() {
-  document.getElementById("mySidebar").style.width = "100%";
-  document.getElementById("mySidebar").style.display = "block";
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
 }
 
+// Close the sidebar with the close button
 function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
+    mySidebar.style.display = "none";
 }
 </script>
+
 
 </body>
 </html>
